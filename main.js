@@ -41,7 +41,7 @@ const secondWord = prompt("inserisci un'altra parola");
 
 if (firstWord.length == secondWord.length) {
   console.log(
-    "Le parole hanno la stessa lunghezza: " + firstWord + " " + secondWord
+    "Le parole hanno la stessa lunghezza: " + firstWord + ", " + secondWord
   );
 } else if (firstWord.length < secondWord.length) {
   console.log(secondWord);
