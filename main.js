@@ -1,17 +1,25 @@
 // Chiedi all'utente un primo numero, poi un secondo e genera un numero casuale compreso tra i due.
-/* const firstNumber = parseInt(prompt("Digita il primo numero !"));
+const firstNumber = parseInt(prompt("Digita il primo numero !"));
 
 const secondNumber = parseInt(prompt("Digita il secondo numero !"));
 
-let max = firstNumber;
-let min = secondNumber; */
-/* let generatedNumber; */
+let min;
+let max;
 
-/* const genNumber = Math.floor(Math.random() * (max - min)) + min; */
+if (firstNumber < secondNumber) {
+  min = firstNumber;
+  max = secondNumber;
+} else {
+  min = secondNumber;
+  max = firstNumber;
+}
+
+const genNumber = Math.floor(Math.random() * (max - min)) + min;
+console.log(genNumber);
+
+/! const genNumber = Math.floor(Math.random() * 10) + 20; /;
 
 /* const genNumber = Math.floor(Math.random() * firstNumber + secondNumber) + 1; */
-
-/* console.log(genNumber); */
 
 // Correzzione
 
@@ -88,15 +96,15 @@ console.log(average);
 //ESERCIZIO 4
 
 /* Trovare gli errori nel seguente codice */
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-let evenNumbers = [];
-for (let i = 0; i < numbers.length - 1; i++) {
-  /* prende la somma dei numeri "pari" -1 */
-  if (numbers[i] % 2 == 0) {
-    /* aggiungere le quadre a "i" */
-    evenNumbers.push(i); /* Le tonde sono corrette...*/
-  }
-}
-console.log(evenNumbers);
+/* let numbers = [1, 2, 3, 4, 5, 6, 7, 8]; */
+/* let evenNumbers = []; */
+/* for (let i = 0; i < numbers.length - 1; i++) { */
+/* prende la somma dei numeri "pari" -1 */
+/*  if (numbers[i] % 2 == 0) { */
+/* aggiungere le quadre a "i" */
+/*   evenNumbers.push(i); */
+/*   } */
+/* } */
+/* console.log(evenNumbers); */
 
 // dovrebbe restituire [1,3,5]
