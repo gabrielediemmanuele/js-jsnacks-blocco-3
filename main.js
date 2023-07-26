@@ -39,6 +39,8 @@ const secondWord = prompt("inserisci un'altra parola");
   console.log(firstWord);
 } */
 
+/! * Soluzione pulita ?*/;
+
 if (firstWord.length == secondWord.length) {
   console.log(
     "Le parole hanno la stessa lunghezza: " + firstWord + ", " + secondWord
