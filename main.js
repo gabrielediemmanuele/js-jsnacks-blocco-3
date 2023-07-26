@@ -27,10 +27,12 @@ stampare la più lunga delle due.*/
 const firstWord = prompt("Inserisci una parola");
 const secondWord = prompt("inserisci un'altra parola");
 
-let perfectWord;
+/* let perfectWord; */
 
 if (firstWord.length == secondWord.length) {
-  console.log("Le parole hanno la stessa lunghezza");
+  console.log(
+    "Le parole hanno la stessa lunghezza: " + firstWord + " " + secondWord
+  );
 } else if (firstWord.length < secondWord.length) {
   console.log(secondWord);
 } else if (firstWord.length > secondWord.length) {
