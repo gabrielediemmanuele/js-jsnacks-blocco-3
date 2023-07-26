@@ -61,27 +61,40 @@ Continua a chiedere i numeri all'utente e
  somma degli elementi è minore di 50.*/
 
 /* Creo un array vuoto */
-const emptyArray = [];
+/* const emptyArray = []; */
 
 /* chiedo all'utente un numero da inserire nell'array */
 /* const userNumber = parsInt(prompt("Inserisci qui un numero")); */
 
 /* variabile per contenere la somma*/
-let sum = 0;
+/* let sum = 0; */
 /* continuo a ripetere il prompt */
-while (sum < 50) {
-  let userNumber = parseInt(prompt("Inserisci qui un numero"));
+/* while (sum < 50) { */
+  /* inserire i numeri nell'array fino a quando la somma è minore di 50 */
+/*   let userNumber = parseInt(prompt("Inserisci qui un numero"));
   sum += userNumber;
 
   if (sum < 50) {
     emptyArray.push(userNumber);
   }
-
-  for (let sum = 0; sum < emptyArray.length; sum++) {
-    sum += emptyArray[sum];
-  }
 }
+console.log(sum); */
 
-console.log(emptyArray);
-console.log(sum);
-/* inserire i numeri nell'array fino a quando la somma è minore di 50 */
+/* Calcola la media dei numeri inseriti. */
+/* const average = sum / emptyArray.length;
+console.log(average);
+ */
+
+//ESERCIZIO 4
+
+/* Trovare gli errori nel seguente codice */
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenNumbers = "";
+for (let i = 0; i < numbers.length - 1; i++;) {
+    if (numbers % 2 = 0); {
+        evenNumbers.push(i);
+    }
+}
+console.log(evenNumbers);
+
+    // dovrebbe restituire [1,3,5]	
