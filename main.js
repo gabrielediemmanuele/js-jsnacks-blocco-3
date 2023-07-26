@@ -29,7 +29,7 @@ const secondWord = prompt("inserisci un'altra parola");
 
 /* let perfectWord; */
 
-if (firstWord.length == secondWord.length) {
+/* if (firstWord.length == secondWord.length) {
   console.log(
     "Le parole hanno la stessa lunghezza: " + firstWord + " " + secondWord
   );
@@ -37,7 +37,7 @@ if (firstWord.length == secondWord.length) {
   console.log(secondWord);
 } else if (firstWord.length > secondWord.length) {
   console.log(firstWord);
-}
+} */
 
 if (firstWord.length == secondWord.length) {
   console.log(
