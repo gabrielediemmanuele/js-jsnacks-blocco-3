@@ -38,3 +38,13 @@ if (firstWord.length == secondWord.length) {
 } else if (firstWord.length > secondWord.length) {
   console.log(firstWord);
 }
+
+if (firstWord.length == secondWord.length) {
+  console.log(
+    "Le parole hanno la stessa lunghezza: " + firstWord + " " + secondWord
+  );
+} else if (firstWord.length < secondWord.length) {
+  console.log(secondWord);
+} else {
+  console.log(firstWord);
+}
