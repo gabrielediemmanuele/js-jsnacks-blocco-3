@@ -70,7 +70,7 @@ Continua a chiedere i numeri all'utente e
 /* let sum = 0; */
 /* continuo a ripetere il prompt */
 /* while (sum < 50) { */
-  /* inserire i numeri nell'array fino a quando la somma è minore di 50 */
+/* inserire i numeri nell'array fino a quando la somma è minore di 50 */
 /*   let userNumber = parseInt(prompt("Inserisci qui un numero"));
   sum += userNumber;
 
@@ -89,12 +89,13 @@ console.log(average);
 
 /* Trovare gli errori nel seguente codice */
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-let evenNumbers = "";
-for (let i = 0; i < numbers.length - 1; i++;) {
-    if (numbers % 2 = 0); {
-        evenNumbers.push(i);
-    }
+let evenNumbers = [];
+for (let i = 0; i < numbers.length - 1; i++) {
+  if (numbers[i] % 2 == 0) {
+    /* aggiungere le quadre a "i" */
+    evenNumbers.push(i); /* Le tonde sono corrette...*/
+  }
 }
 console.log(evenNumbers);
 
-    // dovrebbe restituire [1,3,5]	
+// dovrebbe restituire [1,3,5]
